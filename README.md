@@ -47,7 +47,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-The default `.env.example` uses SQLite. Create the database file, then run the migrations and seed the sample data:
+The default `.env.example` uses MYSQL. Create the database file, then run the migrations and seed the sample data:
 
 ```bash
 touch database/database.sqlite
