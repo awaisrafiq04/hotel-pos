@@ -3,6 +3,7 @@
 .env.*
 !.env.example
 node_modules/
+dist/
 backend/vendor/
 backend/node_modules/
 backend/.env
@@ -15,4 +16,3 @@ backend/storage/*.key
 backend/storage/pail/
 *.log
 hotel_pos.sql
-
