@@ -2,6 +2,24 @@
 
 A full-stack point-of-sale application for hotels and restaurants. It includes order management, tables, kitchen and waiter views, menu management, inventory, purchases, daily reports, users, and restaurant settings.
 
+## Screenshots
+
+| Login | Executive dashboard |
+| --- | --- |
+| <img src="docs/screenshots/login.png" alt="Hotel POS login screen" width="100%"> | <img src="docs/screenshots/dashboard.png" alt="Executive dashboard" width="100%"> |
+
+| Point of sale | Table management |
+| --- | --- |
+| <img src="docs/screenshots/pos.png" alt="Point-of-sale order screen" width="100%"> | <img src="docs/screenshots/table-management.png" alt="Restaurant table management" width="100%"> |
+
+| Kitchen monitor | Business reports |
+| --- | --- |
+| <img src="docs/screenshots/kitchen-monitor.png" alt="Kitchen order monitor" width="100%"> | <img src="docs/screenshots/reports.png" alt="Business reporting dashboard" width="100%"> |
+
+| Hall display | System settings |
+| --- | --- |
+| <img src="docs/screenshots/hall-display.png" alt="Customer-facing hall display" width="100%"> | <img src="docs/screenshots/settings.png" alt="System settings and staff management" width="100%"> |
+
 ## Technology stack
 
 ### Frontend
@@ -123,4 +141,3 @@ php artisan optimize
 ```
 
 Keep all `.env` files private. They are excluded from Git because they can contain application keys, database passwords, and mail credentials.
-
